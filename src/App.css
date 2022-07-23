@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #23252C;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: 400;
+    font-family: Inter, sans-serif;
+}
+.app-container {
+    width: 317px;
+    margin: 44px auto;
+}
+.profile, p, div {
+    margin: 0;
+    padding: 0;
+}
+.profile-photo {
+    border-radius: 10px 10px 0px 0px;
+}
+.profile-container {
+    padding: 0 36px;
+    //margin: -5px;
+    background-color: #1A1B21;
+}
+.profile-header {
+    text-align: center;
+    font-size: 12px;
+    margin-top: -5px;
+}
+.profile-header > h1 {
+    font-size: 25px;
+    margin: 0;
+    padding-top: 20px;
+}
+.profile-header > h2 {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 15px;
+    padding-top: 5px;
+    color: #F3BF99;
+}
+.profile-header > p {
+    font-size: 14px;
+    padding-top: 10px;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+/*.contact-buttons {
+    //margin-bottom: 33px;
+}*/
+.contact-buttons > ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 115px 115px;
+    column-gap: 17px;
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    height: 34px;
+    font-size: 14px;
+}
+.left {
+    color: #374151;
+    background-color: #fff;
+}
+.right {
+    background-color: #5093E2;
+}
+.button > i {
+    margin-right: 8px;
+}
+.profile-content {
+    font-size: 12px;
+    line-height: 150%;
+    padding: 10px 0 32px 0;
+}
+.profile-content > h2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 50%;
+    margin-top: 14px;
+    margin-bottom: 0;
+}
+.profile-content > p {
+    font-weight: 300;
+    padding: 10px 0;
+}
+.social-footer {
+    background: #161619;
+    width: 317px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+}
+.social-footer > ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    list-style: none;
+    color: #918E9B;
+}
