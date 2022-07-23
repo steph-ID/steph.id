@@ -22,7 +22,6 @@ body {
 }
 .profile-container {
     padding: 0 36px;
-    //margin: -5px;
     background-color: #1A1B21;
 }
 .profile-header {
@@ -52,7 +51,7 @@ a {
     text-decoration: none;
 }
 /*.contact-buttons {
-    //margin-bottom: 33px;
+    margin-bottom: 33px;
 }*/
 .contact-buttons > ul {
     list-style: none;
